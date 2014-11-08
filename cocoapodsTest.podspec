@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cocoapodsTest"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.summary      = "my first attempt to publicate cocoapods"
 
   s.description  = <<-DESC
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = 'cocoapodsTest/**'
+  s.source_files = 'cocoapodsTest/**/*.{h,m}'
   #s.exclude_files = "cocoapodsTest/exclude"
 
   s.subspec 'ConfigManager' do |cm|
