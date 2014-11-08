@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cocoapodsTest"
-  s.version      = "0.0.7"
+  s.version      = "0.0.9"
   s.summary      = "my first attempt to publicate cocoapods"
 
   s.description  = <<-DESC
