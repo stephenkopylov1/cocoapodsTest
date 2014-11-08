@@ -8,6 +8,7 @@
 
 #import "innerViewController.h"
 #import "ConfigManager.h"
+#import "CoredataManager.h"
 
 @interface innerViewController ()
 
@@ -16,8 +17,10 @@
 @implementation innerViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    NSLog(@"viewdidload");
+    CoredataManager *coredatamanager = [[CoredataManager alloc] init];
+    NSLog(@"viewdidload %@",coredatamanager.managedObjectContext);
     // Do any additional setup after loading the view.
     UILabel *lbl = [[UILabel alloc] init];
     lbl.text = @"test";

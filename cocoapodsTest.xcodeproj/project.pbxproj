@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		7806D2D5A43277480B9FD4AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FFFE06A2A3709447425802 /* libPods.a */; };
 		8446F5B51A0E1C8F00D2B4AE /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446F5B41A0E1C8F00D2B4AE /* ConfigManager.m */; };
+		847962D61A0E22CB000CE49C /* CoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847962D51A0E22CB000CE49C /* CoredataManager.m */; };
+		847962D81A0E237E000CE49C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847962D71A0E237E000CE49C /* Images.xcassets */; };
+		847962DB1A0E23A6000CE49C /* data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847962D91A0E23A6000CE49C /* data.xcdatamodeld */; };
 		84E319B61A082CAA00992B0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319B51A082CAA00992B0B /* main.m */; };
 		84E319B91A082CAA00992B0B /* cocoapodsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319B81A082CAA00992B0B /* cocoapodsAppDelegate.m */; };
-		84E319C41A082CAA00992B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E319C31A082CAA00992B0B /* Images.xcassets */; };
 		84E319D31A082CAA00992B0B /* cocoapodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319D21A082CAA00992B0B /* cocoapodsTestTests.m */; };
 		84EACCA51A0DF6430039CC1D /* innerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EACCA41A0DF6430039CC1D /* innerViewController.m */; };
 		84F305361A0E138E001B68B0 /* BasicConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F305351A0E138E001B68B0 /* BasicConfig.m */; };
@@ -32,12 +34,15 @@
 		1A0A83B617E2E3BA11E051AD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8446F5B31A0E1C8F00D2B4AE /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigManager.h; path = cocoapodsTest/configManager/ConfigManager.h; sourceTree = "<group>"; };
 		8446F5B41A0E1C8F00D2B4AE /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigManager.m; path = cocoapodsTest/configManager/ConfigManager.m; sourceTree = "<group>"; };
+		847962D41A0E22CB000CE49C /* CoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoredataManager.h; sourceTree = "<group>"; };
+		847962D51A0E22CB000CE49C /* CoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoredataManager.m; sourceTree = "<group>"; };
+		847962D71A0E237E000CE49C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = cocoapodsTest/resources/Images.xcassets; sourceTree = "<group>"; };
+		847962DA1A0E23A6000CE49C /* data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = data.xcdatamodel; sourceTree = "<group>"; };
 		84E319B01A082CAA00992B0B /* cocoapodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoapodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E319B41A082CAA00992B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E319B51A082CAA00992B0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E319B71A082CAA00992B0B /* cocoapodsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoapodsAppDelegate.h; sourceTree = "<group>"; };
 		84E319B81A082CAA00992B0B /* cocoapodsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsAppDelegate.m; sourceTree = "<group>"; };
-		84E319C31A082CAA00992B0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84E319CC1A082CAA00992B0B /* cocoapodsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E319D11A082CAA00992B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E319D21A082CAA00992B0B /* cocoapodsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsTestTests.m; sourceTree = "<group>"; };
@@ -81,6 +86,10 @@
 		84E319A71A082CAA00992B0B = {
 			isa = PBXGroup;
 			children = (
+				847962D91A0E23A6000CE49C /* data.xcdatamodeld */,
+				847962D41A0E22CB000CE49C /* CoredataManager.h */,
+				847962D51A0E22CB000CE49C /* CoredataManager.m */,
+				847962D71A0E237E000CE49C /* Images.xcassets */,
 				8446F5B31A0E1C8F00D2B4AE /* ConfigManager.h */,
 				8446F5B41A0E1C8F00D2B4AE /* ConfigManager.m */,
 				84E319B21A082CAA00992B0B /* cocoapodsTest */,
@@ -107,7 +116,6 @@
 				84F305351A0E138E001B68B0 /* BasicConfig.m */,
 				84E319B71A082CAA00992B0B /* cocoapodsAppDelegate.h */,
 				84E319B81A082CAA00992B0B /* cocoapodsAppDelegate.m */,
-				84E319C31A082CAA00992B0B /* Images.xcassets */,
 				84E319B31A082CAA00992B0B /* Supporting Files */,
 				84EACCA31A0DF6430039CC1D /* innerViewController.h */,
 				84EACCA41A0DF6430039CC1D /* innerViewController.m */,
@@ -234,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E319C41A082CAA00992B0B /* Images.xcassets in Resources */,
+				847962D81A0E237E000CE49C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,8 @@
 			files = (
 				84F305361A0E138E001B68B0 /* BasicConfig.m in Sources */,
 				84F305391A0E1409001B68B0 /* DefaultConfig.m in Sources */,
+				847962D61A0E22CB000CE49C /* CoredataManager.m in Sources */,
+				847962DB1A0E23A6000CE49C /* data.xcdatamodeld in Sources */,
 				84EACCA51A0DF6430039CC1D /* innerViewController.m in Sources */,
 				84E319B91A082CAA00992B0B /* cocoapodsAppDelegate.m in Sources */,
 				84E319B61A082CAA00992B0B /* main.m in Sources */,
@@ -484,6 +494,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		847962D91A0E23A6000CE49C /* data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				847962DA1A0E23A6000CE49C /* data.xcdatamodel */,
+			);
+			currentVersion = 847962DA1A0E23A6000CE49C /* data.xcdatamodel */;
+			name = data.xcdatamodeld;
+			path = cocoapodsTest/resources/data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84E319A81A082CAA00992B0B /* Project object */;
 }

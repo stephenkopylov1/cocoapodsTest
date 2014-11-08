@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cocoapodsTest"
-  s.version      = "0.1.6"
+  s.version      = "0.1.7"
   s.summary      = "my first attempt to publicate cocoapods"
 
   s.description  = <<-DESC
@@ -111,7 +111,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-s.resources  = 'cocoapodsTest/Images.xcassets'
+s.resources  = 'cocoapodsTest/resources/*'
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
