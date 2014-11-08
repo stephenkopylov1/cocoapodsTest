@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cocoapodsTest"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "my first attempt to publicate cocoapods"
 
   s.description  = <<-DESC
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files = 'cocoapodsTest/'
-  s.exclude_files = "cocoapodsTest/exclude"
+  #s.exclude_files = "cocoapodsTest/exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
