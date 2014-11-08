@@ -7,10 +7,12 @@
 //
 
 #import "ConfigManager.h"
-#import "DefaultConfig.h"
+#import "cocoapodsAppDelegate.h"
 
 @implementation ConfigManager
 +(BasicConfig *)getConfig{
-    return [[DefaultConfig alloc] init];
+    cocoapodsAppDelegate *currentAppDelegate = [[UIApplication sharedApplication] delegate];
+    BasicConfig *currentConfig = [currentAppDelegate getConfig];
+    return currentConfig;
 }
 @end

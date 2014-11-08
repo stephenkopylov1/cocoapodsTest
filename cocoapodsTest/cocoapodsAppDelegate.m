@@ -8,6 +8,7 @@
 
 #import "cocoapodsAppDelegate.h"
 #import "innerViewController.h"
+#import "DefaultConfig.h"
 
 @interface cocoapodsAppDelegate () <UISplitViewControllerDelegate>
 
@@ -31,6 +32,10 @@
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+-(BasicConfig *)getConfig{
+    return [[DefaultConfig alloc] init];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

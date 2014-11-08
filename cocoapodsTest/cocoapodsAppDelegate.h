@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BasicConfig.h"
 
 @interface cocoapodsAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+-(BasicConfig*) getConfig;
 
 @end
 
