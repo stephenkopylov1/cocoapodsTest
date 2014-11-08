@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84E319B61A082CAA00992B0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319B51A082CAA00992B0B /* main.m */; };
-		84E319B91A082CAA00992B0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319B81A082CAA00992B0B /* AppDelegate.m */; };
+		84E319B91A082CAA00992B0B /* cocoapodsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319B81A082CAA00992B0B /* cocoapodsAppDelegate.m */; };
 		84E319C41A082CAA00992B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E319C31A082CAA00992B0B /* Images.xcassets */; };
 		84E319D31A082CAA00992B0B /* cocoapodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E319D21A082CAA00992B0B /* cocoapodsTestTests.m */; };
 		84EACCA51A0DF6430039CC1D /* innerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EACCA41A0DF6430039CC1D /* innerViewController.m */; };
@@ -28,8 +28,8 @@
 		84E319B01A082CAA00992B0B /* cocoapodsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoapodsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E319B41A082CAA00992B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E319B51A082CAA00992B0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84E319B71A082CAA00992B0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84E319B81A082CAA00992B0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E319B71A082CAA00992B0B /* cocoapodsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocoapodsAppDelegate.h; sourceTree = "<group>"; };
+		84E319B81A082CAA00992B0B /* cocoapodsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsAppDelegate.m; sourceTree = "<group>"; };
 		84E319C31A082CAA00992B0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84E319CC1A082CAA00992B0B /* cocoapodsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E319D11A082CAA00992B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 		84E319B21A082CAA00992B0B /* cocoapodsTest */ = {
 			isa = PBXGroup;
 			children = (
-				84E319B71A082CAA00992B0B /* AppDelegate.h */,
-				84E319B81A082CAA00992B0B /* AppDelegate.m */,
+				84E319B71A082CAA00992B0B /* cocoapodsAppDelegate.h */,
+				84E319B81A082CAA00992B0B /* cocoapodsAppDelegate.m */,
 				84E319C31A082CAA00992B0B /* Images.xcassets */,
 				84E319B31A082CAA00992B0B /* Supporting Files */,
 				84EACCA31A0DF6430039CC1D /* innerViewController.h */,
@@ -212,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EACCA51A0DF6430039CC1D /* innerViewController.m in Sources */,
-				84E319B91A082CAA00992B0B /* AppDelegate.m in Sources */,
+				84E319B91A082CAA00992B0B /* cocoapodsAppDelegate.m in Sources */,
 				84E319B61A082CAA00992B0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

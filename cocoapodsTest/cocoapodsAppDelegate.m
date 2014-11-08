@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 Admin. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "cocoapodsAppDelegate.h"
 #import "innerViewController.h"
 
-@interface AppDelegate () <UISplitViewControllerDelegate>
+@interface cocoapodsAppDelegate () <UISplitViewControllerDelegate>
 
 @end
 
-@implementation AppDelegate
+@implementation cocoapodsAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
