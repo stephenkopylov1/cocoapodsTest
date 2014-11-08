@@ -18,11 +18,15 @@
     [super viewDidLoad];
     NSLog(@"viewdidload");
     // Do any additional setup after loading the view.
-    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
+    UILabel *lbl = [[UILabel alloc] init];
     lbl.text = @"test";
     lbl.backgroundColor = [UIColor greenColor];
     lbl.textColor = [UIColor redColor];
     [self.view addSubview:lbl];
+    [lbl mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.view);
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
