@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cocoapodsTest"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "my first attempt to publicate cocoapods"
 
   s.description  = <<-DESC
@@ -105,6 +105,8 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
+
+s.resources  = 'cocoapodsTest/Images.xcassets'
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"

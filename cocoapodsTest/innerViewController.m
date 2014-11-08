@@ -27,6 +27,14 @@
         make.center.equalTo(self.view);
     }];
     
+    UIImageView *testImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"testImage"]];
+    [self.view addSubview:testImage];
+    [testImage mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(lbl);
+        make.top.equalTo(lbl.mas_bottom);
+        make.height.mas_equalTo(100);
+        make.width.mas_equalTo(100);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,13 +45,13 @@
 
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
