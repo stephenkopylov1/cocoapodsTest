@@ -7,6 +7,7 @@
 //
 
 #import "innerViewController.h"
+#import "ConfigManager.h"
 
 @interface innerViewController ()
 
@@ -27,7 +28,7 @@
         make.center.equalTo(self.view);
     }];
     
-    UIImageView *testImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"testImage"]];
+    UIImageView *testImage = [[UIImageView alloc] initWithImage: [UIImage imageNamed:[ConfigManager getConfig].testImage]];
     [self.view addSubview:testImage];
     [testImage mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(lbl);
