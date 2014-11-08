@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "cocoapodsTest"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "my first attempt to publicate cocoapods"
 
   s.description  = <<-DESC
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.license          = 'MIT'
+  s.license          =  { :type => "MIT", :file => "LICENSE" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -92,8 +92,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = 'cocoapodsTest/'
+  s.source_files = 'cocoapodsTest/**'
   #s.exclude_files = "cocoapodsTest/exclude"
+
+  #s.subspec 'ConfigManager' do |cm|
+   # cm.source_files   = 'configManager/*'
+  #end
+
 
   # s.public_header_files = "Classes/**/*.h"
 
